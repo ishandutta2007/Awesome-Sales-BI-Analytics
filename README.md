@@ -1,313 +1,163 @@
-# Awesome-Sales-BI-Analytics
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+<a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Sales-BI-Analytics?style=flat-square)](https://github.com/ishandutta2007/Awesome-Sales-BI-Analytics/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Sales-BI-Analytics/pulls)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-## Top Sales BI & Analytics Ecosystem
+<br/>
 
+![Awesome Sales BI & Analytics Banner](assets/banner.svg)
 
+# 📊 Awesome Sales BI & Analytics
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+> **A curated ecosystem of commercial SaaS platforms, open-source BI engines, pipeline dashboards, and self-hosted revenue intelligence tools.**
 
-*Focused on Pipeline Dashboards, Revenue Analytics & Self-Hosted Sales Intelligence*
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **commercial sales BI and analytics platforms** and **open-source projects** that transform CRM data into actionable insights — pipeline dashboards, forecast accuracy, rep performance, territory analytics, and revenue intelligence.
-
-
-
-**Examples** include Salesforce Sales Wave Analytics, Tableau Cloud, Microsoft Power BI, Looker, Domo, Sisense, Qlik Sense, InsightSquared, ThoughtSpot, and Sigma Computing (the category leaders).
-
-
-
-**Open-source emphasis**: Sales BI and analytics is one of the strongest open-source domains. **Apache Superset** leads with 60,000+ GitHub stars and AI-powered intelligence layer . **Metabase** provides no-code self-service analytics for sales managers . **Grafana** delivers unified dashboards with ML-powered alerting . **Lightdash** brings a Looker-like semantic layer for dbt users . **Cube** delivers headless BI for consistent sales metrics . **Streamlit** and **Evidence.dev** enable code-first sales analytics apps . **ClickHouse**, **DuckDB**, and **Apache Doris** power analytical backends on CRM exports . This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Salesforce Sales Wave Analytics](https://www.salesforce.com/)**  
-
-  **Salesforce's native sales analytics** — pipeline dashboards, forecast tracking, and Einstein AI insights integrated with Sales Cloud. **Best for Salesforce customers**.
-
-
-
-- **[Tableau Cloud](https://www.tableau.com/)**  
-
-  **The enterprise visual analytics standard** — drag-and-drop interface with powerful calculation language. **Tableau Pulse** for AI-driven insights. **Pricing**: €75/user/month for Viewer, €115/user/month for Creator . **Best for mature sales BI programs**.
-
-
-
-- **[Microsoft Power BI](https://powerbi.microsoft.com/)**  
-
-  **Microsoft's business analytics platform** — deeply integrated with Excel, Azure, and Microsoft 365. **Pro at $10/user/month, Premium Per User at $20/user/month** . **Copilot AI** included with Premium capacity. **Best for Microsoft-centric sales organizations**.
-
-
-
-- **[Looker (Google Cloud)](https://looker.com/)**  
-
-  **Google's enterprise BI platform** — LookML semantic modeling layer for governed sales metrics. **Best for consistent metric definitions across the organization**.
-
-
-
-- **[Domo](https://www.domo.com/)**  
-
-  **Cloud BI platform** — 1,000+ connectors with ETL, dashboards, and apps. **Best for business-user-driven sales analytics**.
-
-
-
-- **[Sisense](https://www.sisense.com/)**  
-
-  **Embedded analytics platform** — fusion data engine with in-chip technology. **Best for embedding sales analytics into products**.
-
-
-
-- **[Qlik Sense](https://www.qlik.com/)**  
-
-  **Associative analytics engine** — unique associative model that surfaces unexpected sales relationships. **Best for exploratory sales analytics**.
-
-
-
-- **[InsightSquared](https://www.insightsquared.com/)**  
-
-  **Sales analytics and forecasting** — pipeline analytics, rep performance, and forecast roll-up. **Best for mid-market sales teams**.
-
-
-
-- **[ThoughtSpot](https://www.thoughtspot.com/)**  
-
-  **Search-driven analytics** — natural language query with SpotIQ AI. **Best for business-user ad-hoc sales analytics**.
-
-
-
-- **[Sigma Computing](https://www.sigmacomputing.com/)**  
-
-  **Cloud-native BI for warehouses** — spreadsheet interface over cloud data warehouses. **Best for Snowflake, Databricks, and BigQuery users**.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Full BI & Dashboard Platforms
-
-
-
-- **[Apache Superset](https://github.com/apache/superset)**  
-
-  **The leading open-source modern data exploration and visualization platform**, Apache-2.0 licensed with **60,000+ GitHub stars** . **Superset 5.0 provides rich data visualizations** with an easy-to-use interface for creating and sharing sales dashboards . **SQL IDE with Jinja templating, semantic layer, and advanced analytics** . **Superset MCP server** enables LLM access to datasets, charts, and dashboards for intelligent sales analytics . **Intelligence layer** enables AI agents to explore sales data with definition-level access control . **Best for open-source sales BI**.
-
-
-
-- **[Metabase](https://github.com/metabase/metabase)**  
-
-  **Open-source BI and analytics**, AGPL-3.0 licensed with **40,000+ GitHub stars** . **No-code question builder for sales reps and managers** — ask questions without SQL . **Dashboards, alerts, and subscriptions** . **Self-hosted or cloud** . **Best for self-service sales analytics by non-technical users** .
-
-
-
-- **[Grafana](https://github.com/grafana/grafana)**  
-
-  **The de facto standard for open-source dashboards**, AGPL-3.0 licensed with **65,000+ GitHub stars** . **Connects to 100+ data sources including Prometheus, PostgreSQL, MySQL, and more** . **Rich visualization library with alerting, annotations, and templating** . **ML-powered alerting** with outlier detection and forecasting . **Best for operational sales dashboards** .
-
-
-
-- **[Redash](https://github.com/getredash/redash)**  
-
-  **Open-source data visualization and dashboarding**, BSD-2-Clause licensed with **25,000+ GitHub stars** . **SQL-based query editor** with visualization and dashboards . **Best for SQL-driven sales dashboards** .
-
-
-
-- **[Lightdash](https://github.com/lightdash/lightdash)**  
-
-  **Open-source Looker alternative for dbt users**, MIT licensed with **4,000+ GitHub stars** . **Semantic layer built on dbt** — defines sales metrics and dimensions in YAML . **Best for dbt-centric sales analytics workflows** .
-
-
-
-### Embedded & Developer-Focused Analytics
-
-
-
-- **[Cube](https://github.com/cube-js/cube)**  
-
-  **Open-source semantic layer for data applications**, MIT licensed with **17,000+ GitHub stars** . **Headless BI** — define sales metrics once, use them everywhere . **Supports SQL, REST, GraphQL, and MDX APIs** . **Best for embedded sales analytics and consistent metrics** .
-
-
-
-- **[Streamlit](https://github.com/streamlit/streamlit)**  
-
-  **Python framework for building data apps**, Apache-2.0 licensed with **35,000+ GitHub stars** . **Turn Python scripts into interactive sales dashboards** . **Best for custom sales analytics apps** .
-
-
-
-- **[Evidence.dev](https://github.com/evidence-dev/evidence)**  
-
-  **Code-based BI platform**, MIT licensed with **4,000+ GitHub stars** . **Markdown + SQL** — build sales dashboards as code . **Best for developer-centric sales analytics** .
-
-
-
-- **[Perses](https://github.com/perses/perses)**  
-
-  **CNCF dashboard and visualization tool**, Apache-2.0 licensed . **GitOps-friendly dashboard-as-code** . **Best for dashboard-as-code**.
-
-
-
-### Analytical Databases
-
-
-
-- **[ClickHouse](https://github.com/ClickHouse/ClickHouse)**  
-
-  **The leading columnar analytical database**, Apache-2.0 licensed with **35,000+ GitHub stars** . **Real-time ingestion and sub-second queries** . **Best for large-scale sales analytics** .
-
-
-
-- **[DuckDB](https://github.com/duckdb/duckdb)**  
-
-  **In-process analytical database**, MIT licensed with **20,000+ GitHub stars** . **"SQLite for analytics"** — query CRM exports locally . **Best for embedded sales analytics** .
-
-
-
-- **[Apache Doris](https://github.com/apache/doris)**  
-
-  **Real-time analytical database**, Apache-2.0 licensed with **12,000+ GitHub stars** . **High-performance SQL analytics** . **Best for real-time sales analytics** .
-
-
-
-- **[StarRocks](https://github.com/StarRocks/starrocks)**  
-
-  **High-performance analytical database**, Apache-2.0 licensed with **8,000+ GitHub stars** . **Real-time analytics with lakehouse integration** . **Best for modern sales analytics** .
-
-
-
-### Data Pipeline & Modeling
-
-
-
-- **[dbt](https://github.com/dbt-labs/dbt-core)**  
-
-  **The standard for SQL-based data transformation**, Apache-2.0 licensed . **Version-controlled sales data models with testing and documentation** . **Best for sales data modeling** .
-
-
-
-- **[Airbyte](https://github.com/airbytehq/airbyte)**  
-
-  **The leading open-source ELT platform**, MIT licensed . **300+ connectors for CRM data ingestion** . **Best for CRM data pipelines** .
-
-
-
-- **[Jitsu](https://github.com/jitsucom/jitsu)**  
-
-  **Open-source data collection platform**, MIT licensed with **3,500+ GitHub stars** . **Collect event data and send to any destination** . **Best for event data pipelines feeding sales analytics** .
-
-
-
-- **[Dagster](https://github.com/dagster-io/dagster)**  
-
-  **Data orchestration with asset graph**, Apache-2.0 licensed . **Software-defined assets with observability** . **Best for sales data orchestration** .
-
-
-
-- **[Apache Airflow](https://github.com/apache/airflow)**  
-
-  **The standard for workflow orchestration**, Apache-2.0 licensed with **35,000+ GitHub stars** . **Python-based DAGs for scheduling and monitoring pipelines** . **Best for sales data pipelines** .
-
-
-
-- **[Great Expectations](https://github.com/great-expectations/great_expectations)**  
-
-  **Data validation framework**, Apache-2.0 licensed . **Declarative data quality rules for sales data** . **Best for sales data quality validation** .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Apache ECharts** — Powerful charting and visualization library .
-
-- **D3.js** — Data-driven documents for custom visualizations .
-
-- **Plotly** — Interactive charting library for Python, R, and JavaScript .
-
-- **Bokeh** — Interactive visualization for Python .
-
-- **Altair** — Declarative statistical visualization in Python .
-
-- **Vega-Lite** — Grammar of interactive graphics .
-
-- **Observable** — Reactive notebooks for data exploration .
-
-- **Jupyter** — Interactive computing with visualization output .
-
-- **Apache Zeppelin** — Web-based notebook for data analytics .
-
-- **Rill Data** — Open-source BI for event data .
-
-
-
-**Frameworks for building custom sales BI and analytics solutions**: Combine **Apache Superset** or **Metabase** for self-service sales dashboards with AI-powered intelligence layer . Use **Streamlit** or **Evidence.dev** for code-first sales analytics apps . Deploy **Lightdash** or **Cube** for dbt-centric semantic layers . Power with **ClickHouse** or **DuckDB** for analytical queries on CRM data . Integrate **Airbyte** and **dbt** for CRM data pipelines and transformations . Use **Great Expectations** for sales data quality validation . Note that true enterprise sales BI with governed semantic layers, predictive AI, and embedded analytics at scale (Tableau, Power BI, Looker) remains primarily commercial territory; open-source stacks provide strong dashboarding, semantic modeling, and analytical backends that require integration for complete sales BI operations.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Sales BI platforms handle sensitive sales data and may process PII. Self-hosted solutions require proper security hardening, access controls, and compliance with data privacy regulations (GDPR, CCPA).
-
-- **Data quality determines analytics quality** — CRM data hygiene is critical. Poor data leads to misleading dashboards and forecasts. Implement validation pipelines with Great Expectations before building analytics .
-
-- **Total cost of ownership varies significantly** — Tableau at €75-115/user/month and Power BI at $10-20/user/month represent very different cost profiles. Apache Superset is free but requires engineering investment for deployment and maintenance .
-
-- **License considerations**: Superset uses Apache-2.0 , Metabase uses AGPL-3.0 , Streamlit uses Apache-2.0 , Evidence.dev uses MIT , Lightdash uses MIT , and Cube uses MIT . Verify licensing against your use case before committing.
-
-- The open-source ecosystem provides strong dashboarding, semantic modeling, and analytical backends, but **governed semantic layers, predictive AI, and embedded analytics at scale** remain primarily commercial offerings.
-
-
+*Focused on sales performance management, CRM analytics, sales forecasting accuracy, pipeline dashboards, and data-driven revenue operations.*
 
 ---
 
+## 📌 Table of Contents
 
+- [🌐 Market Overview & Dynamics](#-market-overview--dynamics)
+- [💼 Commercial SaaS Platforms](#-commercial-saas-platforms)
+- [🔥 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [📊 Top Open-Source BI & Analytics Repos (Sorted by Star Count)](#-top-open-source-bi--analytics-repos-sorted-by-star-count)
+  - [⚡ Modern Sales Analytics Stack Frameworks](#-modern-sales-analytics-stack-frameworks)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [⭐ Star History](#-star-history)
 
-**Made for sales operations analysts, revenue leaders, and organizations seeking sales BI sovereignty.**
+---
 
-Let's make sales BI and analytics more open, transparent, and data-driven.
+## 🌐 Market Overview & Dynamics
+
+> **💡 Market Size & Sector Structure:**  
+> The global **Sales Business Intelligence (BI) & Revenue Analytics Market** is estimated at **~$32.5 Billion in 2026** and is expanding at a Compound Annual Growth Rate (CAGR) of **~11.8%**.  
+>  
+> The market is **moderately fragmented**: Enterprise deployments remain heavily dominated by cloud technology conglomerates (*Microsoft*, *Salesforce*, *Google Cloud*), while mid-market sales organizations and fast-growing startups leverage specialized revenue intelligence platforms alongside self-hosted open-source analytical semantic layers.
+
+---
+
+## 💼 Commercial SaaS Platforms
+
+Below is a structured analysis of leading commercial **Sales BI & Revenue Analytics** SaaS platforms, sorted by **Company Size (Valuation / Revenue) descending**.
+
+| 🏢 SaaS Platform | 💰 Specific Starting Pricing | 🎁 Free Tier / Trial Limits | 📈 Size (Valuation / Revenue) | 🎯 Best For & Key Features |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Power BI](https://powerbi.microsoft.com/)** | **$10.00 / user / month** (Pro Plan) | **Free Forever** (Power BI Desktop, 10 GB limit) | **~$3,100.00 Billion** ($245B Rev) | **Microsoft-centric sales teams** — Deep Excel, Azure & Microsoft 365 integration with Copilot AI. |
+| **[Looker (Google Cloud)](https://looker.com/)** | **$125.00 / user / month** (Standard Plan) | **14-Day Free Trial** (Enterprise Sandbox) | **~$2,100.00 Billion** ($330B Rev) | **Governed enterprise metrics** — LookML semantic modeling layer for consistent sales metrics across BigQuery. |
+| **[Salesforce Sales Wave Analytics](https://www.salesforce.com/)** | **$75.00 / user / month** (CRM Analytics Growth) | **30-Day Free Trial** (Sales Cloud Einstein) | **~$280.00 Billion** ($34.9B Rev) | **Salesforce CRM users** — Native pipeline dashboards, rep forecasting roll-ups, and Einstein AI insights. |
+| **[Qlik Sense](https://www.qlik.com/)** | **$30.00 / user / month** (Standard Cloud) | **30-Day Free Trial** (Full Cloud Enterprise) | **~$10.00 Billion** ($1.2B Rev) | **Exploratory sales analytics** — Unique associative engine surfacing non-obvious sales relationships. |
+| **[ThoughtSpot](https://www.thoughtspot.com/)** | **$95.00 / user / month** (Team Plan) | **30-Day Free Trial** (Unlimited Search Queries) | **~$4.20 Billion** ($150M ARR) | **Search-driven analytics** — Natural language queries powered by SpotIQ AI for instant sales insights. |
+| **[Domo](https://www.domo.com/)** | **$300.00 / month** (Base Tier + Consumption) | **Free Forever** (30 Credit Limit) & 30-Day Trial | **~$1.80 Billion** ($320M Rev) | **Business-user self-service** — 1,000+ connectors, automated ETL, and interactive executive dashboards. |
+| **[Sigma Computing](https://www.sigmacomputing.com/)** | **$50.00 / user / month** (Standard Tier) | **14-Day Free Trial** (Data Warehouse Connection) | **~$1.50 Billion** ($100M ARR) | **Cloud warehouse analytics** — Spreadsheet interface operating directly on Snowflake, Databricks, and BigQuery. |
+| **[Sisense](https://www.sisense.com/)** | **$83.00 / user / month** ($1,000/yr minimum) | **30-Day Free Trial** (Full Fusion Engine) | **~$1.10 Billion** ($150M Rev) | **Embedded sales dashboards** — In-chip analytical processing for embedding custom analytics into apps. |
+| **[InsightSquared](https://www.insightsquared.com/)** | **$65.00 / user / month** (Essential Tier) | **14-Day Free Trial** (Guided Sandbox) | **~$300.00 Million** ($40M Rev) | **Mid-market Revenue Operations** — Pipeline velocity, rep coaching, and automated sales forecast accuracy. |
+
+---
+
+## 🔥 Open-Source GitHub Projects
+
+Open-source tools empower sales operations analysts and engineers to build sovereign, custom, and cost-effective sales BI infrastructure.
+
+### 📊 Top Open-Source BI & Analytics Repos (Sorted by Star Count)
+
+All repositories below are sorted in **descending order by GitHub star count**. Star badges link directly to the repository's official **Stargazers** page.
+
+1. 🦊 **[Grafana](https://github.com/grafana/grafana)** [![GitHub stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers)  
+   **The standard for operational dashboards & alerting**, AGPL-3.0 licensed. Connects to PostgreSQL, MySQL, and Prometheus for real-time operational sales monitoring and outlier detection.
+
+2. ⚡ **[Apache Superset](https://github.com/apache/superset)** [![GitHub stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers)  
+   **Enterprise-grade data exploration & dashboarding platform**, Apache-2.0 licensed. Features a rich SQL IDE, semantic layer, Jinja templating, and AI-driven intelligence layer for sales teams.
+
+3. 🔍 **[Metabase](https://github.com/metabase/metabase)** [![GitHub stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers)  
+   **No-code BI and self-service analytics**, AGPL-3.0 licensed. Enables non-technical sales managers to ask complex pipeline questions and create automated visual reports without writing SQL.
+
+4. 🚀 **[ClickHouse](https://github.com/ClickHouse/ClickHouse)** [![GitHub stars](https://img.shields.io/github/stars/ClickHouse/ClickHouse?style=social&color=white)](https://github.com/ClickHouse/ClickHouse/stargazers)  
+   **Columnar real-time analytical database**, Apache-2.0 licensed. Delivers sub-second query performance over billions of CRM event logs and sales transactions.
+
+5. 🌪️ **[Apache Airflow](https://github.com/apache/airflow)** [![GitHub stars](https://img.shields.io/github/stars/apache/airflow?style=social&color=white)](https://github.com/apache/airflow/stargazers)  
+   **Workflow orchestration platform**, Apache-2.0 licensed. Python-based DAGs for orchestrating complex CRM data pipelines, sales ETL/ELT, and forecasting models.
+
+6. 🐍 **[Streamlit](https://github.com/streamlit/streamlit)** [![GitHub stars](https://img.shields.io/github/stars/streamlit/streamlit?style=social&color=white)](https://github.com/streamlit/streamlit/stargazers)  
+   **Python framework for rapid data app creation**, Apache-2.0 licensed. Transforms Python data science scripts into interactive, custom sales analytics web applications.
+
+7. 📈 **[Redash](https://github.com/getredash/redash)** [![GitHub stars](https://img.shields.io/github/stars/getredash/redash?style=social&color=white)](https://github.com/getredash/redash/stargazers)  
+   **SQL-driven query editor and visualization platform**, BSD-2-Clause licensed. Simple interface to query databases, build charts, and share dashboards across sales teams.
+
+8. 🦆 **[DuckDB](https://github.com/duckdb/duckdb)** [![GitHub stars](https://img.shields.io/github/stars/duckdb/duckdb?style=social&color=white)](https://github.com/duckdb/duckdb/stargazers)  
+   **In-process analytical database ("SQLite for Analytics")**, MIT licensed. Extremely fast zero-dependency analytical query engine over local CSV/Parquet CRM exports.
+
+9. 🧊 **[Cube](https://github.com/cube-js/cube)** [![GitHub stars](https://img.shields.io/github/stars/cube-js/cube?style=social&color=white)](https://github.com/cube-js/cube/stargazers)  
+   **Universal semantic layer for analytics & AI**, MIT licensed. Headless BI engine ensuring consistent sales KPI definitions across REST, SQL, GraphQL, and MDX interfaces.
+
+10. 🐘 **[Apache Doris](https://github.com/apache/doris)** [![GitHub stars](https://img.shields.io/github/stars/apache/doris?style=social&color=white)](https://github.com/apache/doris/stargazers)  
+    **Real-time MPP analytical database**, Apache-2.0 licensed. Designed for high-concurrency real-time sales reporting and ad-hoc SQL analytics.
+
+11. 🌟 **[StarRocks](https://github.com/StarRocks/starrocks)** [![GitHub stars](https://img.shields.io/github/stars/StarRocks/starrocks?style=social&color=white)](https://github.com/StarRocks/starrocks/stargazers)  
+    **Next-gen real-time analytics database**, Apache-2.0 licensed. Powers unified real-time analytics across data lakes and CRM data warehouses.
+
+12. 💡 **[Lightdash](https://github.com/lightdash/lightdash)** [![GitHub stars](https://img.shields.io/github/stars/lightdash/lightdash?style=social&color=white)](https://github.com/lightdash/lightdash/stargazers)  
+    **Open-source Looker alternative for dbt users**, MIT licensed. Converts dbt metric definitions directly into self-service sales dashboards and charts.
+
+13. 📄 **[Evidence](https://github.com/evidence-dev/evidence)** [![GitHub stars](https://img.shields.io/github/stars/evidence-dev/evidence?style=social&color=white)](https://github.com/evidence-dev/evidence/stargazers)  
+    **Code-based Business Intelligence**, MIT licensed. Build fast, publication-grade sales reports and executive briefs using Markdown and SQL.
+
+14. 🔀 **[Jitsu](https://github.com/jitsucom/jitsu)** [![GitHub stars](https://img.shields.io/github/stars/jitsucom/jitsu?style=social&color=white)](https://github.com/jitsucom/jitsu/stargazers)  
+    **Open-source event collection platform**, MIT licensed. Captures user touchpoints and website interactions to feed product-led sales analytics.
+
+15. ⚡ **[Rill Data](https://github.com/rilldata/rill)** [![GitHub stars](https://img.shields.io/github/stars/rilldata/rill?style=social&color=white)](https://github.com/rilldata/rill/stargazers)  
+    **Operational BI engine for local analytical datasets**, Apache-2.0 licensed. Instant interactive dashboards built on DuckDB for rapid sales dataset exploration.
+
+---
+
+### ⚡ Modern Sales Analytics Stack Frameworks
+
+To assemble a complete open-source Sales BI architecture:
+* **Visualization Layer**: Combine **Apache Superset** or **Metabase** for non-technical sales user access.
+* **App Layer**: Use **Streamlit** or **Evidence.dev** for bespoke sales commission calculators and forecast models.
+* **Semantic Layer**: Deploy **Cube** or **Lightdash** to lock down governed metrics (MRR, ARR, Win Rate, Churn).
+* **Database Backend**: Query CRM snapshots using **ClickHouse**, **DuckDB**, or **Apache Doris**.
+* **Data Pipelines**: Ingest CRM data via **Airbyte** or **Jitsu**, transformed with **dbt**, and orchestrated with **Apache Airflow**.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! Help build the definitive open resource for Sales BI & Analytics:
+
+1. 🍴 **Fork** the repository.
+2. 📝 **Add or edit** entries in `README.md` following the tabular or badged standards.
+3. 🔍 Include verified data: **Product Name**, **Exact Starting Price**, **Free Trial/Tier limits**, and **Valuation/Stars**.
+4. 🚀 **Submit a Pull Request** with a clear description of changes.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this repository helpful for your sales operations, revenue engineering, or BI stack selection, please consider supporting the project!
+
+- ⭐ **Star** this repository to show appreciation.
+- 🔀 **Fork** and share it with your network on LinkedIn, Twitter, and Reddit.
+- ☕ **Sponsor the Maintainer**: Support continuous updates and repository curation via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⚠️ Disclaimer
+
+- This list is **community-curated** for research purposes and does not represent official endorsement.
+- **Data Security & Compliance**: Sales analytics systems process sensitive customer details and revenue figures. Ensure end-to-end security, role-based access control, and GDPR/CCPA compliance.
+- **Data Hygiene**: BI outputs depend strictly on CRM data quality. Implement data validation pipelines (e.g. Great Expectations) to prevent misleading pipeline reports.
+- **License Compliance**: Verify open-source licenses (Apache-2.0, MIT, AGPL-3.0) against your corporate policy before deployment.
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.com/svg?repos=ishandutta2007/Awesome-Sales-BI-Analytics&type=Date&legend=top-left)](https://star-history.com/#ishandutta2007/Awesome-Sales-BI-Analytics&type=Date&legend=top-left)
+
+---
+
+*Curated with ❤️ for sales ops analysts, revenue leaders, and data engineers worldwide.*

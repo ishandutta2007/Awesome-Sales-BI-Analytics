@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1035" />
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <linearGradient id="barGrad1" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0.8" />
+    </linearGradient>
+
+    <linearGradient id="barGrad2" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0.9" />
+    </linearGradient>
+
+    <linearGradient id="barGrad3" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0.9" />
+    </linearGradient>
+
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes floatParticle {
+      0%, 100% { transform: translateY(0px) scale(1); opacity: 0.5; }
+      50% { transform: translateY(-12px) scale(1.1); opacity: 0.9; }
+    }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 0.6; }
+    }
+    @keyframes animateBar {
+      0%, 100% { transform: scaleY(1); }
+      50% { transform: scaleY(1.15); }
+    }
+    @keyframes dashLine {
+      to { stroke-dashoffset: -40; }
+    }
+
+    .particle { animation: floatParticle 4s ease-in-out infinite; }
+    .particle-delayed { animation: floatParticle 5s ease-in-out infinite 2s; }
+    .bg-glow { animation: pulseGlow 6s ease-in-out infinite; }
+    .bar { transform-origin: bottom; animation: animateBar 4s ease-in-out infinite; }
+    .bar-2 { animation-delay: 1s; }
+    .bar-3 { animation-delay: 2s; }
+    .grid-line { stroke: #334155; stroke-dasharray: 4 4; stroke-opacity: 0.4; }
+    .trend-line { stroke: #38bdf8; stroke-width: 3; stroke-dasharray: 8 4; animation: dashLine 2s linear infinite; }
+    
+    .title-text { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 800; font-size: 46px; fill: #ffffff; }
+    .subtitle-text { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 500; font-size: 19px; fill: #94a3b8; }
+    .badge-text { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 13px; fill: #e2e8f0; }
+  </style>
+
+  <!-- Base Canvas -->
+  <rect width="1200" height="320" rx="16" fill="url(#bgGradient)" stroke="#334155" stroke-width="1.5" />
+
+  <!-- Background Pulsing Glows -->
+  <circle cx="200" cy="100" r="160" fill="url(#glowGrad)" class="bg-glow" />
+  <circle cx="1000" cy="220" r="180" fill="url(#glowGrad)" class="bg-glow" style="animation-delay: 3s;" />
+
+  <!-- Grid Pattern in Background -->
+  <g class="grid-line">
+    <line x1="100" y1="40" x2="100" y2="280" />
+    <line x1="300" y1="40" x2="300" y2="280" />
+    <line x1="500" y1="40" x2="500" y2="280" />
+    <line x1="700" y1="40" x2="700" y2="280" />
+    <line x1="900" y1="40" x2="900" y2="280" />
+    <line x1="1100" y1="40" x2="1100" y2="280" />
+
+    <line x1="40" y1="80" x2="1160" y2="80" />
+    <line x1="40" y1="160" x2="1160" y2="160" />
+    <line x1="40" y1="240" x2="1160" y2="240" />
+  </g>
+
+  <!-- Background Dynamic Graphic Elements (Right side, non-overlapping) -->
+  <g transform="translate(820, 70)">
+    <!-- Chart Container Card -->
+    <rect x="0" y="0" width="320" height="190" rx="12" fill="#0f172a" fill-opacity="0.7" stroke="#334155" stroke-width="1" />
+    
+    <!-- Animated Chart Bars -->
+    <rect class="bar" x="30" y="70" width="24" height="90" rx="4" fill="url(#barGrad1)" />
+    <rect class="bar bar-2" x="75" y="45" width="24" height="115" rx="4" fill="url(#barGrad2)" />
+    <rect class="bar bar-3" x="120" y="90" width="24" height="70" rx="4" fill="url(#barGrad1)" />
+    <rect class="bar" x="165" y="30" width="24" height="130" rx="4" fill="url(#barGrad3)" filter="url(#glow)" />
+    <rect class="bar bar-2" x="210" y="60" width="24" height="100" rx="4" fill="url(#barGrad2)" />
+    <rect class="bar bar-3" x="255" y="20" width="24" height="140" rx="4" fill="url(#barGrad3)" />
+
+    <!-- Trend line overlay -->
+    <path class="trend-line" d="M 42 110 Q 87 60, 132 110 T 222 70 L 267 35" fill="none" />
+  </g>
+
+  <!-- Decorative Floating Particles -->
+  <circle cx="150" cy="60" r="4" fill="#8b5cf6" class="particle" />
+  <circle cx="720" cy="50" r="6" fill="#38bdf8" class="particle-delayed" />
+  <circle cx="780" cy="270" r="5" fill="#ec4899" class="particle" />
+  <circle cx="90" cy="260" r="7" fill="#6366f1" class="particle-delayed" />
+
+  <!-- Foreground Content Section (Clear & Unobscured) -->
+  <g transform="translate(60, 0)">
+    <!-- Top Pill / Tag -->
+    <g transform="translate(0, 52)">
+      <rect x="0" y="0" width="210" height="30" rx="15" fill="url(#primaryGrad)" opacity="0.85" />
+      <text x="15" y="20" class="badge-text">⚡ REVENUE INTELLIGENCE</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="132" class="title-text">
+      Awesome <tspan fill="url(#primaryGrad)">Sales BI &amp; Analytics</tspan>
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="172" class="subtitle-text">
+      Curated Ecosystem of SaaS Platforms, Open-Source BI Engines &amp; Revenue Intelligence
+    </text>
+
+    <!-- Feature Pills -->
+    <g transform="translate(0, 215)">
+      <!-- Pill 1 -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="165" height="34" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1" />
+        <text x="14" y="22" class="badge-text" fill="#38bdf8">📊 SaaS Platforms</text>
+      </g>
+
+      <!-- Pill 2 -->
+      <g transform="translate(180, 0)">
+        <rect x="0" y="0" width="175" height="34" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1" />
+        <text x="14" y="22" class="badge-text" fill="#a78bfa">🔥 Open-Source BI</text>
+      </g>
+
+      <!-- Pill 3 -->
+      <g transform="translate(370, 0)">
+        <rect x="0" y="0" width="185" height="34" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1" />
+        <text x="14" y="22" class="badge-text" fill="#f472b6">📈 Revenue Engines</text>
+      </g>
+    </g>
+  </g>
+</svg>
