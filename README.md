@@ -1,6 +1,6 @@
 <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
 <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Sales-BI-Analytics?style=flat-square)](https://github.com/ishandutta2007/Awesome-Sales-BI-Analytics/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Sales-BI-Analytics?style=flat-square)](https://github.com/ishandutta2007/Awesome-Sales-BI-Analytics/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Sales-BI-Analytics/pulls)
 <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -22,7 +22,7 @@
 - [🌐 Market Overview & Dynamics](#-market-overview--dynamics)
 - [💼 Commercial SaaS Platforms](#-commercial-saas-platforms)
 - [🔥 Open-Source GitHub Projects](#-open-source-github-projects)
-  - [📊 Top Open-Source BI & Analytics Repos (Sorted by Star Count)](#-top-open-source-bi--analytics-repos-sorted-by-star-count)
+  - [📊 Top Open-Source BI & Analytics Repos (Sorted by Stars_Count)](#-top-open-source-bi--analytics-repos-sorted-by-star-count)
   - [⚡ Modern Sales Analytics Stack Frameworks](#-modern-sales-analytics-stack-frameworks)
 - [🤝 How to Contribute](#-how-to-contribute)
 - [💖 Support & Sponsorship](#-support--sponsorship)
@@ -62,53 +62,53 @@ Below is a structured analysis of leading commercial **Sales BI & Revenue Analyt
 
 Open-source tools empower sales operations analysts and engineers to build sovereign, custom, and cost-effective sales BI infrastructure.
 
-### 📊 Top Open-Source BI & Analytics Repos (Sorted by Star Count)
+### 📊 Top Open-Source BI & Analytics Repos (Sorted by Stars_Count)
 
-All repositories below are sorted in **descending order by GitHub star count**. Star badges link directly to the repository's official **Stargazers** page.
+All repositories below are sorted in **descending order by GitHub Stars_Count**. Stars_Badges link directly to the repository's official **Stargazers** page.
 
-1. 🦊 **[Grafana](https://github.com/grafana/grafana)** [![GitHub stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers)  
+1. 🦊 **[Grafana](https://github.com/grafana/grafana)** [![GitHub_Stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers)  
    **The standard for operational dashboards & alerting**, AGPL-3.0 licensed. Connects to PostgreSQL, MySQL, and Prometheus for real-time operational sales monitoring and outlier detection.
 
-2. ⚡ **[Apache Superset](https://github.com/apache/superset)** [![GitHub stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers)  
+2. ⚡ **[Apache Superset](https://github.com/apache/superset)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers)  
    **Enterprise-grade data exploration & dashboarding platform**, Apache-2.0 licensed. Features a rich SQL IDE, semantic layer, Jinja templating, and AI-driven intelligence layer for sales teams.
 
-3. 🔍 **[Metabase](https://github.com/metabase/metabase)** [![GitHub stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers)  
+3. 🔍 **[Metabase](https://github.com/metabase/metabase)** [![GitHub_Stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers)  
    **No-code BI and self-service analytics**, AGPL-3.0 licensed. Enables non-technical sales managers to ask complex pipeline questions and create automated visual reports without writing SQL.
 
-4. 🚀 **[ClickHouse](https://github.com/ClickHouse/ClickHouse)** [![GitHub stars](https://img.shields.io/github/stars/ClickHouse/ClickHouse?style=social&color=white)](https://github.com/ClickHouse/ClickHouse/stargazers)  
+4. 🚀 **[ClickHouse](https://github.com/ClickHouse/ClickHouse)** [![GitHub_Stars](https://img.shields.io/github/stars/ClickHouse/ClickHouse?style=social&color=white)](https://github.com/ClickHouse/ClickHouse/stargazers)  
    **Columnar real-time analytical database**, Apache-2.0 licensed. Delivers sub-second query performance over billions of CRM event logs and sales transactions.
 
-5. 🌪️ **[Apache Airflow](https://github.com/apache/airflow)** [![GitHub stars](https://img.shields.io/github/stars/apache/airflow?style=social&color=white)](https://github.com/apache/airflow/stargazers)  
+5. 🌪️ **[Apache Airflow](https://github.com/apache/airflow)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/airflow?style=social&color=white)](https://github.com/apache/airflow/stargazers)  
    **Workflow orchestration platform**, Apache-2.0 licensed. Python-based DAGs for orchestrating complex CRM data pipelines, sales ETL/ELT, and forecasting models.
 
-6. 🐍 **[Streamlit](https://github.com/streamlit/streamlit)** [![GitHub stars](https://img.shields.io/github/stars/streamlit/streamlit?style=social&color=white)](https://github.com/streamlit/streamlit/stargazers)  
+6. 🐍 **[Streamlit](https://github.com/streamlit/streamlit)** [![GitHub_Stars](https://img.shields.io/github/stars/streamlit/streamlit?style=social&color=white)](https://github.com/streamlit/streamlit/stargazers)  
    **Python framework for rapid data app creation**, Apache-2.0 licensed. Transforms Python data science scripts into interactive, custom sales analytics web applications.
 
-7. 📈 **[Redash](https://github.com/getredash/redash)** [![GitHub stars](https://img.shields.io/github/stars/getredash/redash?style=social&color=white)](https://github.com/getredash/redash/stargazers)  
+7. 📈 **[Redash](https://github.com/getredash/redash)** [![GitHub_Stars](https://img.shields.io/github/stars/getredash/redash?style=social&color=white)](https://github.com/getredash/redash/stargazers)  
    **SQL-driven query editor and visualization platform**, BSD-2-Clause licensed. Simple interface to query databases, build charts, and share dashboards across sales teams.
 
-8. 🦆 **[DuckDB](https://github.com/duckdb/duckdb)** [![GitHub stars](https://img.shields.io/github/stars/duckdb/duckdb?style=social&color=white)](https://github.com/duckdb/duckdb/stargazers)  
+8. 🦆 **[DuckDB](https://github.com/duckdb/duckdb)** [![GitHub_Stars](https://img.shields.io/github/stars/duckdb/duckdb?style=social&color=white)](https://github.com/duckdb/duckdb/stargazers)  
    **In-process analytical database ("SQLite for Analytics")**, MIT licensed. Extremely fast zero-dependency analytical query engine over local CSV/Parquet CRM exports.
 
-9. 🧊 **[Cube](https://github.com/cube-js/cube)** [![GitHub stars](https://img.shields.io/github/stars/cube-js/cube?style=social&color=white)](https://github.com/cube-js/cube/stargazers)  
+9. 🧊 **[Cube](https://github.com/cube-js/cube)** [![GitHub_Stars](https://img.shields.io/github/stars/cube-js/cube?style=social&color=white)](https://github.com/cube-js/cube/stargazers)  
    **Universal semantic layer for analytics & AI**, MIT licensed. Headless BI engine ensuring consistent sales KPI definitions across REST, SQL, GraphQL, and MDX interfaces.
 
-10. 🐘 **[Apache Doris](https://github.com/apache/doris)** [![GitHub stars](https://img.shields.io/github/stars/apache/doris?style=social&color=white)](https://github.com/apache/doris/stargazers)  
+10. 🐘 **[Apache Doris](https://github.com/apache/doris)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/doris?style=social&color=white)](https://github.com/apache/doris/stargazers)  
     **Real-time MPP analytical database**, Apache-2.0 licensed. Designed for high-concurrency real-time sales reporting and ad-hoc SQL analytics.
 
-11. 🌟 **[StarRocks](https://github.com/StarRocks/starrocks)** [![GitHub stars](https://img.shields.io/github/stars/StarRocks/starrocks?style=social&color=white)](https://github.com/StarRocks/starrocks/stargazers)  
+11. 🌟 **[StarRocks](https://github.com/StarRocks/starrocks)** [![GitHub_Stars](https://img.shields.io/github/stars/StarRocks/starrocks?style=social&color=white)](https://github.com/StarRocks/starrocks/stargazers)  
     **Next-gen real-time analytics database**, Apache-2.0 licensed. Powers unified real-time analytics across data lakes and CRM data warehouses.
 
-12. 💡 **[Lightdash](https://github.com/lightdash/lightdash)** [![GitHub stars](https://img.shields.io/github/stars/lightdash/lightdash?style=social&color=white)](https://github.com/lightdash/lightdash/stargazers)  
+12. 💡 **[Lightdash](https://github.com/lightdash/lightdash)** [![GitHub_Stars](https://img.shields.io/github/stars/lightdash/lightdash?style=social&color=white)](https://github.com/lightdash/lightdash/stargazers)  
     **Open-source Looker alternative for dbt users**, MIT licensed. Converts dbt metric definitions directly into self-service sales dashboards and charts.
 
-13. 📄 **[Evidence](https://github.com/evidence-dev/evidence)** [![GitHub stars](https://img.shields.io/github/stars/evidence-dev/evidence?style=social&color=white)](https://github.com/evidence-dev/evidence/stargazers)  
+13. 📄 **[Evidence](https://github.com/evidence-dev/evidence)** [![GitHub_Stars](https://img.shields.io/github/stars/evidence-dev/evidence?style=social&color=white)](https://github.com/evidence-dev/evidence/stargazers)  
     **Code-based Business Intelligence**, MIT licensed. Build fast, publication-grade sales reports and executive briefs using Markdown and SQL.
 
-14. 🔀 **[Jitsu](https://github.com/jitsucom/jitsu)** [![GitHub stars](https://img.shields.io/github/stars/jitsucom/jitsu?style=social&color=white)](https://github.com/jitsucom/jitsu/stargazers)  
+14. 🔀 **[Jitsu](https://github.com/jitsucom/jitsu)** [![GitHub_Stars](https://img.shields.io/github/stars/jitsucom/jitsu?style=social&color=white)](https://github.com/jitsucom/jitsu/stargazers)  
     **Open-source event collection platform**, MIT licensed. Captures user touchpoints and website interactions to feed product-led sales analytics.
 
-15. ⚡ **[Rill Data](https://github.com/rilldata/rill)** [![GitHub stars](https://img.shields.io/github/stars/rilldata/rill?style=social&color=white)](https://github.com/rilldata/rill/stargazers)  
+15. ⚡ **[Rill Data](https://github.com/rilldata/rill)** [![GitHub_Stars](https://img.shields.io/github/stars/rilldata/rill?style=social&color=white)](https://github.com/rilldata/rill/stargazers)  
     **Operational BI engine for local analytical datasets**, Apache-2.0 licensed. Instant interactive dashboards built on DuckDB for rapid sales dataset exploration.
 
 ---
